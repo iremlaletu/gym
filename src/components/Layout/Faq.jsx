@@ -5,7 +5,7 @@ import QuestionMarkIcn from "../../assets/img/faq/icons/question-mark.svg";
 const Faq = () => {
   const { accordions } = faq;
   return (
-    <section className="section">
+    <section id="faq" className="section">
       <div
         data-aos="fade-up"
         data-aos-offset="200"

@@ -3,7 +3,7 @@ import CalendarIcn from "../../assets/img/workouts/icons/calendar.svg";
 
 const Workouts = () => {
   return (
-    <section className="section">
+    <section id="workouts" className="section">
       <div
         className="section-title-group max-w-[540px]"
         data-aos="fade-up"

@@ -1,49 +1,69 @@
 // images
 
+import MuscleImg from "../assets/img/workouts/muscle.jpg";
+import BoxingImg from "../assets/img/workouts/boxing.jpg";
+import YogaImg from "../assets/img/workouts/yoga.jpg";
+import BattleRopeImg from "../assets/img/workouts/rope.png";
 import ResistanceImg from "../assets/img/workouts/resistance.png";
-import BoxingImg from "../assets/img/workouts/boxing.png";
-import BodyPumpImg from "../assets/img/workouts/body-pump.png";
-import YogaImg from "../assets/img/workouts/yoga.png";
-import FullBodyImg from "../assets/img/workouts/full-body.png";
-import FitnessImg from "../assets/img/workouts/fitness.png";
-import BattleRopeImg from "../assets/img/workouts/battle-rope.png";
-import CommunityImg1 from "../assets/img/community/img1.png";
-import CommunityImg2 from "../assets/img/community/img2.png";
-import CommunityImg3 from "../assets/img/community/img3.png";
-import CommunityImg4 from "../assets/img/community/img4.png";
+import StrengthImg from "../assets/img/workouts/strength.jpg";
+import FullBodyImg from "../assets/img/workouts/fullbody.jpg";
+import PilatesImg from "../assets/img/workouts/pilates.png";
+import WeightLossImg from "../assets/img/workouts/weightLoss.jpg";
+
+import CommunityImg1 from "../assets/img/community/img1.jpg";
+import CommunityImg2 from "../assets/img/community/img2.jpg";
+import CommunityImg3 from "../assets/img/community/img3.jpg";
+import CommunityImg4 from "../assets/img/community/img4.jpg";
 import CommunityImg5 from "../assets/img/community/img5.jpg";
 import CommunityImg6 from "../assets/img/community/img6.jpg";
 import CommunityImg7 from "../assets/img/community/img7.jpg";
 
+export const nav = [
+  { name: "Home", id: "banner" },
+  { name: "About", id: "about" },
+  { name: "Workouts", id: "workouts" },
+  { name: "Pricing", id: "pricing" },
+  { name: "Community", id: "community" },
+  { name: "FAQ", id: "faq" },
+];
+
 export const workouts = {
   programs: [
     {
-      image: ResistanceImg,
-      name: "Resistance",
+      image: MuscleImg,
+      name: "Muscle Building",
     },
     {
       image: BoxingImg,
       name: "Boxing",
     },
     {
-      image: BodyPumpImg,
-      name: "Body Pump",
-    },
-    {
       image: YogaImg,
       name: "Yoga",
+    },
+    {
+      image: BattleRopeImg,
+      name: "Battle Rope",
+    },
+    {
+      image: ResistanceImg,
+      name: "Resistance",
     },
     {
       image: FullBodyImg,
       name: "Full Body",
     },
     {
-      image: FitnessImg,
-      name: "Fitness",
+      image: StrengthImg,
+      name: "Strength",
     },
     {
-      image: BattleRopeImg,
-      name: "Battle Rope",
+      image: PilatesImg,
+      name: "Pilates",
+    },
+    {
+      image: WeightLossImg,
+      name: "Weight Loss",
     },
   ],
 };
@@ -90,45 +110,44 @@ export const community = {
   testimonials: [
     {
       image: CommunityImg1,
-      name: "Mark A.",
+      name: "James L.",
       message:
-        "“Great location, great price and great, helpful people. What to want more?”",
+        "“Finally found a gym where I feel comfortable. Excellent equipment and the trainers are fantastic”",
     },
     {
       image: CommunityImg2,
-      name: "Lauren K.",
+      name: "Sophia T.",
       message:
-        "“Gym changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”",
+        "“Clean facilities, friendly staff, and the best lifting area in town. Highly recommend!”",
     },
     {
       image: CommunityImg3,
-      name: "Jhon D.",
+      name: "Emily R.",
       message:
-        "“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”",
+        "“The yoga classes here are a game-changer. The coaches are so attentive, and the vibe is amazing!”",
     },
     {
       image: CommunityImg4,
-      name: "Anne R.",
+      name: "Michael H.",
       message:
-        "“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”",
+        "“I’ve been to a lot of gyms, but this one stands out for its personal training programs. Worth every penny.”",
     },
     {
       image: CommunityImg5,
-      name: "John Doe",
+      name: "John D.",
       message:
-        "This gym is amazing! The trainers are fantastic, and the equipment is top-notch.",
+        "This gym is amazing! The equipment is top-notch. You can tell they really care about the details.",
     },
     {
       image: CommunityImg6,
-      name: "Jane Smith",
+      name: "Jane S.",
       message:
         "I love the variety of classes offered here. Yoga and boxing are my favorites!",
     },
     {
       image: CommunityImg7,
-      name: "Alex Johnson",
-      message:
-        "A perfect place to lift weights and stay fit. Highly recommend it!",
+      name: "Olivia P.",
+      message: "A perfect place to stay fit. Highly recommend it!",
     },
   ],
 };
@@ -138,32 +157,32 @@ export const faq = {
     {
       question: "How can I book a workout class?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "You can easily book a workout class through our gym app or website. Simply select your preferred class, choose a time slot, and confirm your booking. If you prefer, you can also book in person at the front desk. Make sure to book early as spots can fill up quickly!",
     },
     {
-      question: "Can I pay by cash for my membership?",
+      question: "Do I need a personal trainer?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "A personal trainer can be helpful if you’re new to working out, want to learn proper techniques, or need motivation. However, many gyms also offer beginner-friendly classes and resources to guide you.",
     },
     {
-      question: "What age do I need to be to join?",
+      question: "Are group classes suitable for beginners?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Absolutely! Many group classes are designed with beginners in mind. Inform the instructor that you’re new, and they’ll help you modify movements to suit your fitness level.",
     },
     {
-      question: "Are there any lockers?",
+      question: "What are the gym’s operating hours?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Gym Center is open 7 days a week from 5 AM to 11 PM, so you can work out whenever it fits your schedule.",
     },
     {
       question: "How do I cancel my membership?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "To cancel your membership, simply visit the front desk or contact our customer service team. They will guide you through the cancellation process and ensure everything is taken care of. Please note that a notice period may apply depending on your membership terms.",
     },
     {
-      question: "Is there water available at the gym?",
+      question: "Is there a locker room for members?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Absolutely! We have spacious locker rooms with secure lockers, showers, and changing facilities for your convenience.",
     },
   ],
 };

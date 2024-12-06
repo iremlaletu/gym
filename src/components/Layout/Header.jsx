@@ -34,7 +34,7 @@ const Header = () => {
           <IoMenu className="text-primary-200 text-3xl cursor-pointer" />
         )}
       </div>
-      <NavMobile navMobile={navMobile} />
+      <NavMobile navMobile={navMobile} setNavMobile={setNavMobile} />
     </header>
   );
 };

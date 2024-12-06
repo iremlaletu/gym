@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="section pt-36 ">
+    <section id="about" className="section pt-36 ">
       <div
         className="container mx-auto px-5 lg:px-32"
         data-aos="fade-up"

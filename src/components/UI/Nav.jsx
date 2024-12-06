@@ -1,20 +1,21 @@
-const nav = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/" },
-  { name: "Workouts", href: "/" },
-  { name: "Pricing", href: "/" },
-  { name: "Community", href: "/" },
-  { name: "FAQ", href: "/" },
-];
-
+import { nav } from "../../utils/data";
 const Nav = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <nav className="hidden lg:flex">
       <ul className="flex text-white gap-x-8">
         {nav.map((item, idx) => {
           return (
             <li key={idx}>
-              <a className="hover:text-primary-200" href={item.href}>
+              <a
+                onClick={() => scrollToSection(item.id)}
+                className="hover:text-primary-200 cursor-pointer"
+              >
                 {item.name}
               </a>
             </li>

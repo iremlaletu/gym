@@ -2,7 +2,7 @@ import Button from "../UI/Button";
 
 const Banner = () => {
   return (
-    <section className="h-screen bg-neutral-500 ">
+    <section id="banner" className="h-screen bg-neutral-500 ">
       <div className="h-full">
         <div className="flex items-center h-full relative -space-x-48 lg:-space-x-52">
           <div
@@ -34,7 +34,7 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-delay="700"
             >
-              <Button>Join Now</Button>
+              <Button to="/signin">Join Now</Button>
             </div>
           </div>
         </div>

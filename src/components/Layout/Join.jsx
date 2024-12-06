@@ -1,4 +1,4 @@
-import JoinImg from "../../assets/img/join/woman.png";
+import JoinImg from "../../assets/img/join/join.jpg";
 import Button from "../UI/Button";
 
 const Join = () => {
@@ -15,7 +15,7 @@ const Join = () => {
             <img src={JoinImg} alt="womanpicture" />
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="100"
             data-aos-delay="200"
             className="max-w-[350px] ml-8"
@@ -25,10 +25,10 @@ const Join = () => {
               Sign Up Today!
             </h2>
             <p className="text-body-md text-white mb-6">
-              We’ll keep you updated on the things you need to know about Gym
-              Center. Nothing more, nothing less.{" "}
+              Discover tips, updates, and motivation from Gym Center. Your
+              fitness journey, our priority.
             </p>
-            <Button> Join now </Button>
+            <Button to="/signin"> Join now </Button>
           </div>
         </div>
       </div>

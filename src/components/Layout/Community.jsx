@@ -2,7 +2,7 @@ import CommunityIcn from "../../assets/img/community/icons/community-icn.svg";
 import CommunitySlider from "../UI/CommunitySlider";
 const Community = () => {
   return (
-    <section className="section">
+    <section id="community" className="section">
       <div
         data-aos="fade-up"
         data-aos-delay="300"

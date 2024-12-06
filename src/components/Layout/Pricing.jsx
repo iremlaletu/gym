@@ -3,7 +3,7 @@ import PriceIcn from "../../assets/img/pricing/icons/price.svg";
 
 const Pricing = () => {
   return (
-    <section className="section">
+    <section id="pricing" className="section">
       <div
         data-aos="fade-up"
         data-aos-delay="300"

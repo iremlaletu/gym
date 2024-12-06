@@ -38,7 +38,7 @@ const PlanList = () => {
                 })}
               </ul>
               <div className="mt-auto">
-                <Button> Join Now </Button>
+                <Button to="/signin"> Join Now </Button>
               </div>
             </div>
           </div>

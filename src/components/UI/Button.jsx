@@ -1,4 +1,15 @@
-const Button = ({ children, onClick }) => {
+import { useNavigate } from "react-router-dom";
+
+const Button = ({ children, onClick, to }) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
+    if (to) {
+      navigate(to);
+    }
+  };
   return (
     <div className="relative group w-fit">
       <div className="relative w-64 h-14 overflow-hidden rounded-xl bg-neutral-500 z-10">
@@ -7,7 +18,7 @@ const Button = ({ children, onClick }) => {
         <div className="absolute flex items-center justify-center text-white z-[1] rounded-2xl inset-0.5 bg-neutral-500">
           <button
             name="text"
-            onClick={onClick}
+            onClick={handleClick}
             className="font-semibold text-lg h-full w-full px-16 py-3 rounded-xl bg-neutral-500"
           >
             {children}
