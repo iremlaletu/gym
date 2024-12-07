@@ -15,7 +15,7 @@ const RegisterPage = () => {
     setIsRegistering((prev) => !prev);
   };
 
-  const submit = (values, action) => {
+  const submit = (action) => {
     setTimeout(() => {
       action.resetForm();
     }, 2000);
