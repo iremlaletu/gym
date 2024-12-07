@@ -19,7 +19,7 @@ export const registerFormSchemas = yup.object().shape({
   confirmPassword: yup
     .string()
     .required("Password is required")
-    .oneOf([yup.ref("password", yup.password)], "Passwords doesn't match"),
+    .oneOf([yup.ref("password")], "Passwords doesn't match"),
   term: yup.boolean().required("Please accept the terms and conditions"),
 });
 
