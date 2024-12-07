@@ -43,12 +43,7 @@ const RegisterPage = () => {
 
   return (
     <div className="w-full h-screen flex items-start">
-      <div
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="200"
-        className="relative hidden md:w-1/2 md:h-full md:flex flex-col"
-      >
+      <div className="relative hidden md:w-1/2 md:h-full md:flex flex-col">
         <div className="absolute top-[20%] left-[10%] flex flex-col">
           <h1 className="h1 my-5 text-white">
             Find Balance, Strength, and Energy
