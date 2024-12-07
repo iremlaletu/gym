@@ -9,7 +9,7 @@ const ErrorPage = () => {
         className="w-24 h-auto cursor-pointer"
         onClick={() => navigate("/")}
         src={Logo}
-        alt=""
+        alt="logo"
       />
       <h1 className="text-3xl font-semibold ">Oops! Something went wrong</h1>
       <h4 className="text-lg ">

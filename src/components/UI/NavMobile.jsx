@@ -29,7 +29,7 @@ const NavMobile = ({ navMobile, setNavMobile }) => {
         })}
       </ul>
       <div className=" -mt-44 flex flex-col justify-center items-center gap-2">
-        <Button to="/signin"> Sign in </Button>
+        <Button to="/register"> Sign in </Button>
       </div>
     </nav>
   );

@@ -9,14 +9,14 @@ import { community } from "../../utils/data";
 const CommunitySlider = () => {
   const { testimonials } = community;
   return (
-    <div className="max-w-4xl mx-auto px-4">
+    <div className="max-w-5xl mx-auto px-4">
       <Swiper
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={3}
         spaceBetween={-50}
-        initialSlide={1}
+        initialSlide={3}
         coverflowEffect={{
           rotate: 30,
           stretch: 10,

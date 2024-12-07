@@ -34,7 +34,7 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-delay="700"
             >
-              <Button to="/signin">Join Now</Button>
+              <Button to="/register">Join Now</Button>
             </div>
           </div>
         </div>

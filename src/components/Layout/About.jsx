@@ -1,3 +1,5 @@
+import Button from "../UI/Button";
+
 const About = () => {
   return (
     <section id="about" className="section pt-36 ">
@@ -16,8 +18,9 @@ const About = () => {
           Our mission is simple: we want to inspire you to be the best version
           of yourself. Whether you're just starting out or pushing for a new
           personal record, we’re here to support you every step of the way in a
-          place where you can truly thrive
+          place where you can truly thrive.
         </p>
+        <Button to="/trainers"> Meet Our Trainers </Button>
       </div>
     </section>
   );

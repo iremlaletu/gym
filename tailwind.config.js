@@ -20,21 +20,16 @@ export default {
     extend: {
       colors: {
         primary: {
-          100: "#79031D", // p-span
+          100: "#79031D",
           200: "#F21137",
-          300: "#25c870",
         },
         neutral: {
-          100: "#ffffff",
-          200: "#dedee3",
-          300: "#9797a1",
           400: "#595962",
-          500: "#131316", //  h1 başlıklar
+          500: "#131316",
         },
       },
       backgroundImage: {
         banner: "url('/src/assets/img/banner/bannerbg.jpg')",
-        faq: "url('/src/assets/img/faq/bg.svg')",
       },
       backgroundSize: {
         auto: "auto",

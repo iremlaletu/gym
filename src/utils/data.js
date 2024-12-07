@@ -115,16 +115,16 @@ export const community = {
         "“Finally found a gym where I feel comfortable. Excellent equipment and the trainers are fantastic”",
     },
     {
-      image: CommunityImg2,
-      name: "Sophia T.",
-      message:
-        "“Clean facilities, friendly staff, and the best lifting area in town. Highly recommend!”",
-    },
-    {
       image: CommunityImg3,
       name: "Emily R.",
       message:
         "“The yoga classes here are a game-changer. The coaches are so attentive, and the vibe is amazing!”",
+    },
+    {
+      image: CommunityImg2,
+      name: "Sophia T.",
+      message:
+        "“Clean facilities, friendly staff, and the best lifting area in town. Highly recommend!”",
     },
     {
       image: CommunityImg4,
