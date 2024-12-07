@@ -15,7 +15,7 @@ const Faq = () => {
         <img src={QuestionMarkIcn} alt="logo" />
         <h2 className="h2 section-title text-primary-100"> FAQ</h2>
       </div>
-      <div className="max-w-[768px] h-[760px] mx-auto">
+      <div className="max-w-[768px] h-auto mx-auto">
         <div className="flex flex-col gap-y-4 px-4">
           {accordions.map((accordion, idx) => {
             return <Accordion accordion={accordion} key={idx} />;

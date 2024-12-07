@@ -5,13 +5,13 @@ import { IoIosMail } from "react-icons/io";
 
 const Join = () => {
   return (
-    <section className="bg-neutral-500 flex flex-col md:flex-row justify-evenly space-y-5 ">
+    <section className="bg-neutral-500 flex flex-col md:flex-row justify-evenly space-y-5 mt-20 ">
       <div className="">
         <div className="flex flex-col h-full md:flex-row md:items-center md:-space-x-24 -space-y-32 lg:-space-y-0">
           <div
             data-aos="fade-right"
             data-aos-offset="100"
-            data-aos-delay="200"
+            data-aos-delay="300"
             className="-mt-20 max-w-[375px] md:max-w-[442px] lg:max-w-full "
           >
             <img src={JoinImg} alt="womanpicture" />

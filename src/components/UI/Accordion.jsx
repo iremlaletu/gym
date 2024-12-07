@@ -8,7 +8,8 @@ const Accordion = ({ accordion }) => {
     <div
       onClick={() => setIsOpen(!isOpen)}
       data-aos="fade-up"
-      data-aos-delay="300"
+      data-aos-offset="200"
+      data-aos-delay="100"
       className="cursor-pointer"
     >
       <div className="bg-neutral-400/10">
@@ -24,10 +25,10 @@ const Accordion = ({ accordion }) => {
         </div>
         <div
           className={` ${
-            isOpen ? "min-h-32 " : "min-h-0"
+            isOpen ? "min-h-44 " : "min-h-0"
           } max-h-0 overflow-hidden flex justify-center px-7 transition-all`}
         >
-          <div className="mt-4">{answer}</div>
+          <div className="mt-3">{answer}</div>
         </div>
       </div>
     </div>
