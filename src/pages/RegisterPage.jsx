@@ -3,7 +3,7 @@ import {
   loginFormSchemas,
   registerFormSchemas,
 } from "../schemas/RegisterFormSchemas";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../components/UI/Button";
 import BannerImg from "../assets/img/banner/bannerbg.jpg";
 import { Link } from "react-router-dom";
@@ -20,6 +20,9 @@ const RegisterPage = () => {
       action.resetForm();
     }, 2000);
   };
+  useEffect(() => {
+    console.log("Register page mounted");
+  }, []);
   const { values, errors, handleChange, handleSubmit } = useFormik({
     initialValues: isRegistering
       ? {
