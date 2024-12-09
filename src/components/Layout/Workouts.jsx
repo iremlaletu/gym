@@ -14,9 +14,8 @@ const Workouts = () => {
           Training programs
         </h2>
       </div>
-      <div data-aos="fade-left" data-aos-delay="200">
-        <WorkoutSlider />
-      </div>
+
+      <WorkoutSlider />
     </section>
   );
 };

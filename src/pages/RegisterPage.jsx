@@ -3,9 +3,9 @@ import {
   loginFormSchemas,
   registerFormSchemas,
 } from "../schemas/RegisterFormSchemas";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Button from "../components/UI/Button";
-import BannerImg from "../assets/img/banner/bannerbg.jpg";
+import RegisterImg from "../assets/img/banner/registerbg.jpg";
 import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
@@ -20,9 +20,7 @@ const RegisterPage = () => {
       action.resetForm();
     }, 2000);
   };
-  useEffect(() => {
-    console.log("Register page mounted");
-  }, []);
+
   const { values, errors, handleChange, handleSubmit } = useFormik({
     initialValues: isRegistering
       ? {
@@ -43,18 +41,28 @@ const RegisterPage = () => {
 
   return (
     <div className="w-full h-screen flex items-start">
-      <div className="relative hidden md:w-1/2 md:h-full md:flex flex-col">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="200"
+        className="relative hidden md:w-1/2 md:h-full md:flex flex-col"
+      >
         <div className="absolute top-[20%] left-[10%] flex flex-col">
           <h1 className="h1 my-5 text-white">
             Find Balance, Strength, and Energy
-            <span className="text-primary-200"> your fitness your style.</span>
+            <span className="text-primary-200"> your yoga your style.</span>
           </h1>
           <p className="text-xl text-white ">
-            Discover a fitness experience that fits your lifestyle and
-            transforms your goals into reality.
+            Discover a yoga experience that fits your lifestyle and transforms
+            your goals into reality.
           </p>
         </div>
-        <img className="w-full h-full object-cover" src={BannerImg} alt="" />
+        <img
+          className="w-full h-full object-cover"
+          src={RegisterImg}
+          alt="img"
+        />
+        <div className="absolute inset-0 bg-neutral-500 bg-opacity-50"></div>
       </div>
       <div
         data-aos="fade-right"

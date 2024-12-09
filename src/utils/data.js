@@ -17,6 +17,12 @@ import CommunityImg4 from "../assets/img/community/img4.jpg";
 import CommunityImg5 from "../assets/img/community/img5.jpg";
 import CommunityImg6 from "../assets/img/community/img6.jpg";
 import CommunityImg7 from "../assets/img/community/img7.jpg";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
 
 export const nav = [
   { name: "Home", id: "banner" },
@@ -184,5 +190,24 @@ export const faq = {
       answer:
         "Absolutely! We have spacious locker rooms with secure lockers, showers, and changing facilities for your convenience.",
     },
+  ],
+};
+
+export const FooterData = {
+  pdfLinks: [
+    { href: "/pdfs/privacy-policy.pdf", text: "Privacy Policy & Terms of Use" },
+    { href: "/pdfs/membership-agreement.pdf", text: "Membership Agreement" },
+    {
+      href: "/pdfs/membership-rules.pdf",
+      text: "Membership Rules & Regulations",
+    },
+    { href: "/pdfs/cancellation-form.pdf", text: "Cancellation Form" },
+  ],
+
+  socialMediaLinks: [
+    { name: "Facebook", href: "https://facebook.com", icon: FaFacebookF },
+    { name: "Instagram", href: "https://instagram.com", icon: FaInstagram },
+    { name: "Twitter", href: "https://twitter.com", icon: FaTwitter },
+    { name: "YouTube", href: "https://youtube.com", icon: FaYoutube },
   ],
 };

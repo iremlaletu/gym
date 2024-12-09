@@ -15,22 +15,22 @@
     @apply font-primary text-neutral-500;
   }
   .h1 {
-    @apply text-[40px] leading-[60px] lg:text-[60px] lg:leading-[80px] font-extrabold;
+    @apply text-[40px] leading-[60px] lg:text-[60px] lg:leading-[80px] font-semibold;
   }
   .h2 {
-    @apply text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold;
+    @apply text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-semibold;
   }
   .h3 {
-    @apply text-[38px] leading-[46px] font-extrabold;
+    @apply text-[38px] leading-[46px] font-semibold;
   }
   .h4 {
-    @apply text-[30px] leading-[46px] font-extrabold;
+    @apply text-[30px] leading-[46px] font-semibold;
   }
   .h5 {
-    @apply text-[24px] leading-[32px] font-extrabold;
+    @apply text-[24px] leading-[32px] font-semibold;
   }
   .h6 {
-    @apply text-[18px] leading-[28px] font-bold;
+    @apply text-[18px] leading-[28px];
   }
   .text-body-sm {
     @apply font-secondary font-normal text-[16px] leading-[26px];

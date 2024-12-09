@@ -28,15 +28,6 @@ export default {
           500: "#131316",
         },
       },
-      backgroundImage: {
-        banner: "url('/src/assets/img/banner/bannerbg.jpg')",
-      },
-      backgroundSize: {
-        auto: "auto",
-        cover: "cover",
-        contain: "contain",
-        custom: "95%",
-      },
     },
   },
   plugins: [],

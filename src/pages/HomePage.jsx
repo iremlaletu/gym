@@ -5,7 +5,7 @@ import Workouts from "../components/Layout/Workouts";
 import Pricing from "../components/Layout/Pricing";
 import Community from "../components/Layout/Community";
 import Faq from "../components/Layout/Faq";
-import Join from "../components/Layout/Join";
+import Footer from "../components/Layout/Footer";
 
 function HomePage() {
   return (
@@ -17,7 +17,7 @@ function HomePage() {
       <Pricing />
       <Community />
       <Faq />
-      <Join />
+      <Footer />
     </div>
   );
 }

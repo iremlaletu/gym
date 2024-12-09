@@ -18,9 +18,9 @@ const CommunitySlider = () => {
         spaceBetween={-50}
         initialSlide={3}
         coverflowEffect={{
-          rotate: 30,
+          rotate: 0,
           stretch: 10,
-          depth: 100,
+          depth: 200,
           modifier: 1,
           slideShadows: true,
         }}
@@ -37,7 +37,8 @@ const CommunitySlider = () => {
               alt={item.name}
               className="w-full lg:h-[500px] h-96 object-cover"
             />
-            <div className="absolute bottom-0 left-0 w-full p-4 text-white">
+
+            <div className="absolute bottom-0 left-0 w-full p-4 lg:p-10 text-white">
               <h3 className="text-xl font-bold text-primary-100">
                 {item.name}
               </h3>
