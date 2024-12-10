@@ -1,5 +1,6 @@
-import PlanList from "../UI/PlanList";
 import PriceIcn from "../../assets/img/pricing/icons/price.svg";
+import { memberships } from "../../utils/data";
+import MemberShipCard from "../UI/MemberShipCard";
 
 const Pricing = () => {
   return (
@@ -10,9 +11,15 @@ const Pricing = () => {
         className="section-title-group max-w-[480px]"
       >
         <img src={PriceIcn} alt="icon" />
-        <h2 className="h2 section-title text-primary-100">Pricing Plan</h2>
+        <h2 className="h2 section-title text-primary-100">Membership Plan</h2>
       </div>
-      <PlanList />
+      <div className="flex flex-col gap-4 items-center">
+        {memberships.map((membership) => (
+          <div key={membership.id} className="w-full max-w-4xl">
+            <MemberShipCard membership={membership} />
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

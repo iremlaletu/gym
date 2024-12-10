@@ -15,7 +15,7 @@ const WorkoutSlider = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="space-y-4 w-full max-w-4xl">
+      <div className="space-y-3 w-full max-w-4xl">
         {groupedPrograms.map((group, idx) => (
           <div
             data-aos={

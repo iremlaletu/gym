@@ -1,5 +1,6 @@
 import Button from "../UI/Button";
 import videobg from "../../assets/video/bannerbg.mp4";
+import registerbg from "../../assets/img/banner/registerbg.jpg";
 
 const Banner = () => {
   return (
@@ -10,6 +11,8 @@ const Banner = () => {
           autoPlay
           loop
           muted
+          playsInline
+          poster={registerbg}
           className="absolute w-full h-full object-cover"
         />
 

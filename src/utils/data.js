@@ -1,14 +1,14 @@
 // images
 
-import MuscleImg from "../assets/img/workouts/muscle.jpg";
-import BoxingImg from "../assets/img/workouts/boxing.jpg";
-import YogaImg from "../assets/img/workouts/yoga.jpg";
-import BattleRopeImg from "../assets/img/workouts/rope.png";
-import ResistanceImg from "../assets/img/workouts/resistance.png";
-import StrengthImg from "../assets/img/workouts/strength.jpg";
-import FullBodyImg from "../assets/img/workouts/fullbody.jpg";
-import PilatesImg from "../assets/img/workouts/pilates.png";
-import WeightLossImg from "../assets/img/workouts/weightLoss.jpg";
+import Amsterdam from "../assets/img/workouts/amsterdam.png";
+import Dubai from "../assets/img/workouts/dubai.png";
+import Istanbul from "../assets/img/workouts/istanbul.jpg";
+import Losangeles from "../assets/img/workouts/losangeles.png";
+import Newyork from "../assets/img/workouts/newyork.png";
+import Paris from "../assets/img/workouts/paris.jpg";
+import Rio from "../assets/img/workouts/rio.jpg";
+import Sydney from "../assets/img/workouts/sydney.jpg";
+import Tokyo from "../assets/img/workouts/tokyo.jpg";
 
 import CommunityImg1 from "../assets/img/community/img1.jpg";
 import CommunityImg2 from "../assets/img/community/img2.jpg";
@@ -36,81 +36,85 @@ export const nav = [
 export const workouts = {
   programs: [
     {
-      image: MuscleImg,
-      name: "Muscle Building",
+      image: Newyork,
+      name: "New York",
     },
     {
-      image: BoxingImg,
-      name: "Boxing",
+      image: Tokyo,
+      name: "Tokyo",
     },
     {
-      image: YogaImg,
-      name: "Yoga",
+      image: Paris,
+      name: "Paris",
     },
     {
-      image: BattleRopeImg,
-      name: "Battle Rope",
+      image: Sydney,
+      name: "Sydney",
     },
     {
-      image: ResistanceImg,
-      name: "Resistance",
+      image: Dubai,
+      name: "Dubai",
     },
     {
-      image: FullBodyImg,
-      name: "Full Body",
+      image: Amsterdam,
+      name: "Amsterdam",
     },
     {
-      image: StrengthImg,
-      name: "Strength",
+      image: Losangeles,
+      name: "Los Angeles",
     },
     {
-      image: PilatesImg,
-      name: "Pilates",
+      image: Rio,
+      name: "Rio de Janeiro",
     },
     {
-      image: WeightLossImg,
-      name: "Weight Loss",
+      image: Istanbul,
+      name: "Istanbul",
     },
   ],
 };
 
-export const pricing = {
-  plans: [
-    {
-      name: "Basic",
-      price: "89",
-      list: [
-        { name: "unlimited gym access" },
-        { name: "1 training programs" },
-        { name: "free fitness consultation" },
-      ],
-      delay: 600,
-    },
-    {
-      name: "Premium",
-      price: "139",
-      list: [
-        { name: "unlimited gym access" },
-        { name: "5 training programs" },
-        { name: "free fitness consultation" },
-        { name: "personal trainer" },
-      ],
-      delay: 800,
-    },
-    {
-      name: "Elite",
-      price: "189",
-      list: [
-        { name: "unlimited gym access" },
-        { name: "all training programs" },
-        { name: "free fitness consultation" },
-        { name: "personal trainer" },
-        { name: "50% off drinks" },
-      ],
-      delay: 1000,
-    },
-  ],
-};
+export const memberships = [
+  {
+    id: 1,
+    membershipType: "Local",
+    description: "Perfect for regular practitioners in a single city.",
+    monthlyPrice: "49",
+    features: [
+      "Unlimited access to studios in your city",
+      "Option for 1-on-1 private sessions (extra fee or limited free sessions)",
+      "Access to multiple yoga styles (Hatha, Vinyasa, Yin, etc.)",
+      "Participation in local events",
+      "Occasional access to studios abroad upon request (extra fee)",
+    ],
+  },
+  {
+    id: 2,
+    membershipType: "Global",
+    description:
+      "Ideal for digital nomads, access yoga studios worldwide without limits.",
+    monthlyPrice: "89",
+    features: [
+      "Unlimited access to studios across all location",
+      "View schedules and book classes in any city",
+      "Online guidance and support",
+      "Participation in global yoga events",
+    ],
+  },
+  {
+    id: 3,
+    membershipType: "VIP",
+    description:
+      "Elevate your yoga journey with unlimited access and exclusive perks.",
+    monthlyPrice: "99",
+    features: [
+      "Priority booking and access to all studios worldwide",
+      "Unlimited private sessions with experienced instructors",
+      "Free participation in exclusive retreats and workshops",
+      "Discounts on yoga gear and equipment",
+    ],
+  },
+];
 
 export const community = {
   testimonials: [

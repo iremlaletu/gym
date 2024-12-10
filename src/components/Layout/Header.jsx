@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Logo from "../../assets/img/header/logo.png";
 import Nav from "../UI/Nav";
 import NavMobile from "../UI/NavMobile";
 import { IoMenu } from "react-icons/io5";
@@ -21,7 +20,7 @@ const Header = () => {
         isActive ? "bg-neutral-500 py-4" : "bg-transparent py-5 "
       } `}
     >
-      <p className="text-slate-400">GYM</p>
+      <p className="text-slate-400">Yoga Club</p>
       <Nav />
 
       <div
